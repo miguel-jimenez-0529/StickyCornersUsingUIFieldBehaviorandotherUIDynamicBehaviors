@@ -38,7 +38,7 @@ class StickyCornersViewController: UIViewController {
         itemView = UIView(frame: CGRect(x: 0, y: 0, width: length, height: floor(length / itemAspectRatio)))
         itemView.autoresizingMask = []
 
-        itemView.backgroundColor = UIColor.red
+        itemView.backgroundColor = UIColor.cyan
         
         let panGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(StickyCornersViewController.pan(_:)))
         itemView.addGestureRecognizer(panGestureRecognizer)
